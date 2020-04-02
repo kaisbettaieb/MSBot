@@ -1,0 +1,39 @@
+swagger: "2.0"
+info:
+  description: The swager configuration file for our Bot
+  version: "1.0.0"
+  title: Swagger REST Bot
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /test:
+    post:
+      operationId: "controllers.messagesIO.test"
+      tags:
+        - "Test"
+      summary: "test swagger / connexion"
+      description: "return yes worked"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            type: "string"
+
+  /messages:
+    post:
+      operationId: "controllers.messagesIO.messages"
+      tags:
+        - "Messages"
+      summary: "The endpoint for our message bot"
+      description: "return the bot response"
+      responses:
+        200:
+          description: "Successful response"
+          schema:
+            type: "object"
