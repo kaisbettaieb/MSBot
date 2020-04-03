@@ -2,10 +2,6 @@ adal==1.2.1
 aiounittest==1.3.0
 attrs==19.3.0
 Babel==2.7.0
-botbuilder-core==4.8.0
-botbuilder-dialogs==4.8.0
-botbuilder-schema==4.8.0
-botframework-connector==4.8.0
 certifi==2019.11.28
 cffi==1.14.0
 chardet==3.0.4
@@ -49,3 +45,8 @@ six==1.14.0
 swagger-ui-bundle==0.0.6
 urllib3==1.25.8
 Werkzeug==1.0.1
+botbuilder-core==4.8.0
+botbuilder-dialogs==4.8.0
+botbuilder-schema==4.8.0
+botframework-connector==4.8.0
+
